@@ -2,14 +2,14 @@ let Car=function(color)
 {
     this.color=color;
 
-    // this.getColor=function()
-    // {
-    //     return this.color;
-    // }
+    this.getColor=function()
+    {
+        return this.color;
+    }
 };
 Car.prototype.getColor=function()
 {
-    return this.color;
+    return this.color+this.color;
 };
 
 Object.prototype.toString=function()
