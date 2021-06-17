@@ -8,13 +8,16 @@ const car2=Object.create(Car.prototype);
 console.dir(car1);
 console.dir(car2);
 
-
 Car.prototype=
 {
     getColor()
     {
         return this.color;
+    },
+    test(){
+        return 'test';
     }
+
 };
 
 const ToyCar=function()

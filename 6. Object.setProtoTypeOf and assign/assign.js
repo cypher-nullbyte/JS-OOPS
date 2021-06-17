@@ -30,3 +30,12 @@ Object.assign(toyota,{
 });
 
 console.dir(toyota);
+console.log('---------------');
+let c1=function(x,y,z)
+{
+    this.x=x;
+    Object.assign(this,{y,z});
+}
+
+let x=new c1(1,2,3);
+console.dir(x);

@@ -1,3 +1,4 @@
+'use strict';
 // Object.create(prototypeObject, propertyObject);
 const myObject=Object.create(Object.prototype);
 
